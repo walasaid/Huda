@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خدماتنا الروحية - هدى الرفاعي للتدريب الروحي</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fhudacoach3270back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background font-body">
+    <!-- Header Navigation -->
+    <header class="bg-white shadow-gentle sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 8 L28 16 L20 24 L12 16 Z" fill="currentColor" opacity="0.8"/>
+                            <circle cx="20" cy="20" r="4" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="mr-3">
+                        <h1 class="text-xl font-headline font-bold text-primary">هدى الرفاعي</h1>
+                        <p class="text-xs text-secondary-600">التدريب الروحي والشفاء</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-reverse space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors">الرئيسية</a>
+                    <a href="services.html" class="text-primary font-medium border-b-2 border-primary pb-1">الخدمات</a>
+                    <a href="courses.html" class="text-text-secondary hover:text-primary transition-colors">الدورات</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-colors">عن هدى</a>
+                    <a href="testimonials.html" class="text-text-secondary hover:text-primary transition-colors">قصص النجاح</a>
+                    <a href="blog.html" class="text-text-secondary hover:text-primary transition-colors">المدونة</a>
+                </nav>
+
+                <!-- Social Links & Language Toggle -->
+                <div class="hidden md:flex items-center space-x-reverse space-x-4">
+                    <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                        </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                        </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                        </svg>
+                    </a>
+                    <button class="bg-accent text-white px-3 py-1 rounded-lg text-sm font-medium hover:bg-accent-600 transition-colors">
+                        EN
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-surface-200">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="homepage.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">الرئيسية</a>
+                <a href="services.html" class="block px-3 py-2 text-primary font-medium bg-primary-50 rounded-md">الخدمات</a>
+                <a href="courses.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">الدورات</a>
+                <a href="about.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">عن هدى</a>
+                <a href="testimonials.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">قصص النجاح</a>
+                <a href="blog.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">المدونة</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Prayer Time Widget -->
+    <div class="bg-primary-50 border-b border-primary-100">
+        <div class="max-w-7xl mx-auto px-4 py-2">
+            <div class="flex items-center justify-center text-sm text-primary-700">
+                <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                <span>وقت الصلاة القادم: المغرب - 6:24 م</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spiritual Quote of the Day -->
+    <div class="bg-gradient-to-l from-accent-50 to-primary-50 border-b border-accent-100">
+        <div class="max-w-4xl mx-auto px-4 py-3 text-center">
+            <p class="text-accent-700 font-accent text-lg italic">
+                "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ"
+            </p>
+            <p class="text-accent-600 text-sm mt-1">الطلاق: 3</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-bl from-primary-50 via-white to-secondary-50 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                <pattern id="islamic-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M10 0L20 10L10 20L0 10Z" fill="currentColor" class="text-primary"/>
+                </pattern>
+                <rect width="100" height="100" fill="url(#islamic-pattern)"/>
+            </svg>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+            <div class="text-center">
+                <h1 class="text-4xl lg:text-5xl font-headline font-bold text-primary mb-6 leading-tight">
+                    خدماتنا الروحية المتخصصة
+                </h1>
+                <p class="text-xl text-text-secondary mb-8 max-w-3xl mx-auto leading-relaxed">
+                    نقدم مجموعة شاملة من الخدمات التي تجمع بين التدريب الحياتي والشفاء الروحي لمساعدتك في رحلة التحول الشخصي وفقاً للمبادئ الإسلامية
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://wa.me/249117374525?text=أريد%20استشارة%20مجانية%20حول%20الخدمات%20المناسبة%20لي" class="bg-primary text-white px-8 py-4 rounded-xl font-cta font-semibold text-lg hover:bg-primary-600 transition-all duration-300 shadow-soft hover:shadow-gentle transform hover:-translate-y-1">
+                        احجزي استشارة مجانية
+                    </a>
+                    <a href="#services-comparison" class="bg-white text-primary border-2 border-primary px-8 py-4 rounded-xl font-cta font-semibold text-lg hover:bg-primary-50 transition-all duration-300">
+                        قارني بين الخدمات
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-16 bg-surface-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Life Coaching -->
+                <div class="spiritual-card breathing-space group">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-200 transition-colors">
+                            <svg class="w-10 h-10 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold text-primary mb-4">التدريب الحياتي الروحي</h3>
+                    </div>
+
+                    <div class="mb-6">
+                        <img src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=600" alt="جلسة تدريب حياتي روحي" class="w-full h-48 object-cover rounded-lg shadow-gentle" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                    </div>
+
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        جلسات فردية وجماعية مخصصة لمساعدتك في تحديد أهدافك الروحية وتحقيق التوازن بين الحياة الدنيا والآخرة. نستخدم تقنيات التدريب الحديثة مع الحكمة الإسلامية.
+                    </p>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>جلسات فردية (60 دقيقة)</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>جلسات جماعية (90 دقيقة)</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>متابعة عبر الواتساب</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>خطة عمل شخصية</span>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-surface-200 pt-4 mb-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-sm text-text-muted">جلسة فردية</span>
+                            <span class="font-bold text-accent">200 ريال</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-text-muted">باقة 4 جلسات</span>
+                            <span class="font-bold text-accent">700 ريال</span>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/249117374525?text=أريد%20حجز%20جلسة%20تدريب%20حياتي%20روحي%20فردية" class="w-full bg-primary text-white px-6 py-3 rounded-lg font-cta font-semibold hover:bg-primary-600 transition-colors text-center block">
+                        احجزي جلستك الآن
+                    </a>
+                </div>
+
+                <!-- Emotional Cleansing -->
+                <div class="spiritual-card breathing-space group">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-secondary-200 transition-colors">
+                            <svg class="w-10 h-10 text-secondary-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold text-primary mb-4">جلسات التطهير العاطفي</h3>
+                    </div>
+
+                    <div class="mb-6">
+                        <img src="https://images.pixabay.com/photos/3822488/pexels-photo-3822488.jpeg?auto=compress&cs=tinysrgb&w=600" alt="جلسة تطهير عاطفي وشفاء روحي" class="w-full h-48 object-cover rounded-lg shadow-gentle" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                    </div>
+
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        تقنيات روحية متقدمة لتحرير المشاعر السلبية والصدمات العاطفية واستعادة السلام الداخلي. نجمع بين العلاج النفسي والرقية الشرعية والتأمل الإسلامي.
+                    </p>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>جلسة شفاء (90 دقيقة)</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>تقييم الحالة العاطفية</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>تمارين تأمل إسلامية</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>أدعية وأذكار للشفاء</span>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-surface-200 pt-4 mb-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-sm text-text-muted">جلسة واحدة</span>
+                            <span class="font-bold text-accent">300 ريال</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-text-muted">برنامج شامل (3 جلسات)</span>
+                            <span class="font-bold text-accent">800 ريال</span>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/249117374525?text=أريد%20حجز%20جلسة%20تطهير%20عاطفي%20وشفاء%20روحي" class="w-full bg-secondary text-white px-6 py-3 rounded-lg font-cta font-semibold hover:bg-secondary-600 transition-colors text-center block">
+                        احجزي جلسة الشفاء
+                    </a>
+                </div>
+
+                <!-- Online Courses -->
+                <div class="spiritual-card breathing-space group">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-accent-200 transition-colors">
+                            <svg class="w-10 h-10 text-accent-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold text-primary mb-4">الدورات التدريبية المتخصصة</h3>
+                    </div>
+
+                    <div class="mb-6">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=compress&cs=tinysrgb&w=600" alt="دورات تدريبية روحية أونلاين" class="w-full h-48 object-cover rounded-lg shadow-gentle" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                    </div>
+
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        برامج تدريبية شاملة تجمع بين النظرية والتطبيق لتطوير مهاراتك في الشفاء الذاتي والنمو الروحي. دورات مسجلة ومباشرة مع شهادات معتمدة.
+                    </p>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>محتوى مسجل ومباشر</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>شهادة إتمام معتمدة</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>مجموعة دعم خاصة</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>مواد تدريبية قابلة للتحميل</span>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-surface-200 pt-4 mb-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-sm text-text-muted">دورة أساسية</span>
+                            <span class="font-bold text-accent">500 ريال</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-text-muted">برنامج شامل (6 أسابيع)</span>
+                            <span class="font-bold text-accent">1200 ريال</span>
+                        </div>
+                    </div>
+
+                    <a href="courses.html" class="w-full bg-accent text-white px-6 py-3 rounded-lg font-cta font-semibold hover:bg-accent-600 transition-colors text-center block">
+                        استكشفي الدورات
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Preparation Guidelines -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    كيف تستعدين لجلستك؟
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    إرشادات مهمة لضمان الاستفادة القصوى من تجربتك الروحية معنا
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Before Session -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-headline font-bold text-primary mb-4">قبل الجلسة</h3>
+                    <ul class="text-text-secondary space-y-2 text-right">
+                        <li>• توضئي واقرئي سورة الفاتحة</li>
+                        <li>• اختاري مكاناً هادئاً ومريحاً</li>
+                        <li>• أحضري دفتر ملاحظات وقلم</li>
+                        <li>• تأكدي من استقرار الاتصال</li>
+                        <li>• حددي أهدافك من الجلسة</li>
+                    </ul>
+                </div>
+
+                <!-- During Session -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-headline font-bold text-primary mb-4">أثناء الجلسة</h3>
+                    <ul class="text-text-secondary space-y-2 text-right">
+                        <li>• كوني صادقة ومنفتحة</li>
+                        <li>• شاركي مشاعرك بحرية</li>
+                        <li>• اطرحي جميع أسئلتك</li>
+                        <li>• دوني النصائح المهمة</li>
+                        <li>• ثقي في العملية العلاجية</li>
+                    </ul>
+                </div>
+
+                <!-- After Session -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-headline font-bold text-primary mb-4">بعد الجلسة</h3>
+                    <ul class="text-text-secondary space-y-2 text-right">
+                        <li>• اعملي بالنصائح المقدمة</li>
+                        <li>• مارسي التمارين الروحية</li>
+                        <li>• راجعي ملاحظاتك يومياً</li>
+                        <li>• تواصلي عند الحاجة</li>
+                        <li>• احتفلي بتقدمك</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Comparison Table -->
+    <section id="services-comparison" class="py-16 bg-surface-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    قارني بين خدماتنا
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    اختاري الخدمة الأنسب لاحتياجاتك الروحية والشخصية
+                </p>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-xl shadow-soft overflow-hidden">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="px-6 py-4 text-right font-headline font-bold">المقارنة</th>
+                            <th class="px-6 py-4 text-center font-headline font-bold">التدريب الحياتي</th>
+                            <th class="px-6 py-4 text-center font-headline font-bold">التطهير العاطفي</th>
+                            <th class="px-6 py-4 text-center font-headline font-bold">الدورات التدريبية</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-surface-200">
+                        <tr>
+                            <td class="px-6 py-4 font-medium text-text-primary">مدة الجلسة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">60 دقيقة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">90 دقيقة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">6-8 أسابيع</td>
+                        </tr>
+                        <tr class="bg-surface-50">
+                            <td class="px-6 py-4 font-medium text-text-primary">نوع الخدمة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">فردي/جماعي</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">فردي</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">جماعي</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-medium text-text-primary">التركيز الأساسي</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">تحديد الأهداف</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">الشفاء العاطفي</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">التعلم المنهجي</td>
+                        </tr>
+                        <tr class="bg-surface-50">
+                            <td class="px-6 py-4 font-medium text-text-primary">المتابعة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">أسبوعية</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">حسب الحاجة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">يومية</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-medium text-text-primary">المواد المرفقة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">خطة عمل</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">تمارين شفاء</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">مواد شاملة</td>
+                        </tr>
+                        <tr class="bg-surface-50">
+                            <td class="px-6 py-4 font-medium text-text-primary">الشهادة</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">-</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">-</td>
+                            <td class="px-6 py-4 text-center text-text-secondary">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    أسعار الخدمات
+                </h2>
+                <p class="text-xl text-text-secondary mb-6">
+                    أسعار شفافة ومرنة تناسب جميع الميزانيات
+                </p>
+                <div class="flex justify-center space-x-reverse space-x-4">
+                    <button onclick="changeCurrency('SAR')" class="currency-btn active px-4 py-2 rounded-lg font-medium transition-colors" data-currency="SAR">
+                        ريال سعودي
+                    </button>
+                    <button onclick="changeCurrency('AED')" class="currency-btn px-4 py-2 rounded-lg font-medium transition-colors" data-currency="AED">
+                        درهم إماراتي
+                    </button>
+                    <button onclick="changeCurrency('EGP')" class="currency-btn px-4 py-2 rounded-lg font-medium transition-colors" data-currency="EGP">
+                        جنيه مصري
+                    </button>
+                    <button onclick="changeCurrency('JOD')" class="currency-btn px-4 py-2 rounded-lg font-medium transition-colors" data-currency="JOD">
+                        دينار أردني
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Life Coaching Pricing -->
+                <div class="spiritual-card breathing-space text-center">
+                    <h3 class="text-xl font-headline font-bold text-primary mb-4">التدريب الحياتي الروحي</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">جلسة فردية</span>
+                                <span class="font-bold text-accent price" data-service="life-coaching" data-type="single">200 ريال</span>
+                            </div>
+                        </div>
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">باقة 4 جلسات</span>
+                                <span class="font-bold text-accent price" data-service="life-coaching" data-type="package">700 ريال</span>
+                            </div>
+                        </div>
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">جلسة جماعية</span>
+                                <span class="font-bold text-accent price" data-service="life-coaching" data-type="group">100 ريال</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/249117374525?text=أريد%20معرفة%20المزيد%20عن%20أسعار%20التدريب%20الحياتي" class="w-full bg-primary text-white px-6 py-3 rounded-lg font-cta font-semibold hover:bg-primary-600 transition-colors block">
+                        احجزي الآن
+                    </a>
+                </div>
+
+                <!-- Emotional Cleansing Pricing -->
+                <div class="spiritual-card breathing-space text-center border-2 border-accent relative">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-accent text-white px-4 py-1 rounded-full text-sm font-medium">
+                        الأكثر طلباً
+                    </div>
+                    <h3 class="text-xl font-headline font-bold text-primary mb-4 mt-4">التطهير العاطفي</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">جلسة واحدة</span>
+                                <span class="font-bold text-accent price" data-service="emotional-cleansing" data-type="single">300 ريال</span>
+                            </div>
+                        </div>
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">برنامج شامل (3 جلسات)</span>
+                                <span class="font-bold text-accent price" data-service="emotional-cleansing" data-type="package">800 ريال</span>
+                            </div>
+                        </div>
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">متابعة شهرية</span>
+                                <span class="font-bold text-accent price" data-service="emotional-cleansing" data-type="monthly">150 ريال</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/249117374525?text=أريد%20حجز%20جلسة%20تطهير%20عاطفي%20-%20البرنامج%20الشامل" class="w-full bg-accent text-white px-6 py-3 rounded-lg font-cta font-semibold hover:bg-accent-600 transition-colors block">
+                        احجزي البرنامج الشامل
+                    </a>
+                </div>
+
+                <!-- Online Courses Pricing -->
+                <div class="spiritual-card breathing-space text-center">
+                    <h3 class="text-xl font-headline font-bold text-primary mb-4">الدورات التدريبية</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">دورة أساسية</span>
+                                <span class="font-bold text-accent price" data-service="courses" data-type="basic">500 ريال</span>
+                            </div>
+                        </div>
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">برنامج شامل (6 أسابيع)</span>
+                                <span class="font-bold text-accent price" data-service="courses" data-type="comprehensive">1200 ريال</span>
+                            </div>
+                        </div>
+                        <div class="border-b border-surface-200 pb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-text-secondary">دورة متقدمة</span>
+                                <span class="font-bold text-accent price" data-service="courses" data-type="advanced">800 ريال</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="courses.html" class="w-full bg-secondary text-white px-6 py-3 rounded-lg font-cta font-semibold hover:bg-secondary-600 transition-colors block">
+                        استكشفي الدورات
+                    </a>
+                </div>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="mt-12 text-center">
+                <h3 class="text-xl font-headline font-bold text-primary mb-6">طرق الدفع المتاحة</h3>
+                <div class="flex justify-center items-center space-x-reverse space-x-8 flex-wrap gap-4">
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/>
+                        </svg>
+                        <span class="text-text-secondary">بطاقة ائتمانية</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                        <span class="text-text-secondary">تحويل بنكي</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary ml-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M7.5 4A5.5 5.5 0 0 0 2 9.5c0 .5.09 1 .22 1.5H6.3c-.13-.47-.2-.97-.2-1.5A3.5 3.5 0 0 1 7.5 6a3.5 3.5 0 0 1 3.5 3.5c0 .53-.07 1.03-.2 1.5h4.08c.13-.47.2-.97.2-1.5A5.5 5.5 0 0 0 9.5 4H7.5z"/>
+                        </svg>
+                        <span class="text-text-secondary">محافظ إلكترونية</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-surface-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    الأسئلة الشائعة
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    إجابات على أكثر الأسئلة شيوعاً حول خدماتنا الروحية
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="spiritual-card breathing-space">
+                    <button class="w-full text-right flex justify-between items-center" onclick="toggleFAQ(1)">
+                        <h3 class="text-lg font-headline font-bold text-primary">هل الخدمات متوافقة مع التعاليم الإسلامية؟</h3>
+                        <svg id="faq-icon-1" class="w-5 h-5 text-primary transform transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-1" class="hidden mt-4 text-text-secondary leading-relaxed">
+                        نعم، جميع خدماتنا مبنية على المبادئ الإسلامية الصحيحة. نجمع بين الحكمة الإسلامية والأساليب العلاجية الحديثة المتوافقة مع ديننا الحنيف. نستخدم القرآن الكريم والسنة النبوية كأساس لجميع تقنياتنا العلاجية.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="spiritual-card breathing-space">
+                    <button class="w-full text-right flex justify-between items-center" onclick="toggleFAQ(2)">
+                        <h3 class="text-lg font-headline font-bold text-primary">كم جلسة أحتاج لرؤية النتائج؟</h3>
+                        <svg id="faq-icon-2" class="w-5 h-5 text-primary transform transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-2" class="hidden mt-4 text-text-secondary leading-relaxed">
+                        يختلف الأمر من شخص لآخر حسب الحالة والأهداف. عادة ما نلاحظ تحسناً ملموساً بعد 3-4 جلسات للتدريب الحياتي، وبعد جلسة واحدة للتطهير العاطفي. نوصي بالالتزام بالبرنامج المقترح للحصول على أفضل النتائج.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="spiritual-card breathing-space">
+                    <button class="w-full text-right flex justify-between items-center" onclick="toggleFAQ(3)">
+                        <h3 class="text-lg font-headline font-bold text-primary">هل يمكنني إلغاء أو تأجيل الجلسة؟</h3>
+                        <svg id="faq-icon-3" class="w-5 h-5 text-primary transform transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-3" class="hidden mt-4 text-text-secondary leading-relaxed">
+                        نعم، يمكنك إلغاء أو تأجيل الجلسة قبل 24 ساعة على الأقل دون أي رسوم إضافية. في حالة الإلغاء المتأخر، قد تطبق رسوم بنسبة 50% من قيمة الجلسة. نتفهم الظروف الطارئة ونتعامل معها بمرونة.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="spiritual-card breathing-space">
+                    <button class="w-full text-right flex justify-between items-center" onclick="toggleFAQ(4)">
+                        <h3 class="text-lg font-headline font-bold text-primary">هل الجلسات سرية وآمنة؟</h3>
+                        <svg id="faq-icon-4" class="w-5 h-5 text-primary transform transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-4" class="hidden mt-4 text-text-secondary leading-relaxed">
+                        بالطبع، نحن ملتزمون بأعلى معايير السرية والخصوصية. جميع المعلومات التي تشاركينها معنا محمية ولن يتم الكشف عنها لأي طرف ثالث. نستخدم منصات آمنة ومشفرة لجميع جلساتنا الإلكترونية.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="spiritual-card breathing-space">
+                    <button class="w-full text-right flex justify-between items-center" onclick="toggleFAQ(5)">
+                        <h3 class="text-lg font-headline font-bold text-primary">ما هي المؤهلات والشهادات المتوفرة؟</h3>
+                        <svg id="faq-icon-5" class="w-5 h-5 text-primary transform transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-5" class="hidden mt-4 text-text-secondary leading-relaxed">
+                        الأستاذة هدى حاصلة على شهادات معتمدة في التدريب الحياتي والعلاج النفسي، بالإضافة إلى دراسات إسلامية متخصصة. لديها خبرة أكثر من 8 سنوات في مجال التدريب الروحي وساعدت أكثر من 500 عميلة في رحلة التحول الشخصي.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-headline font-bold mb-4">
+                ابدئي رحلة التحول اليوم
+            </h2>
+            <p class="text-xl text-primary-100 mb-8">
+                لا تنتظري أكثر، خطوتك الأولى نحو السلام الداخلي والنمو الروحي تبدأ بمكالمة واحدة
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/249117374525?text=أريد%20حجز%20استشارة%20مجانية%20لتحديد%20الخدمة%20المناسبة%20لي" class="bg-white text-primary px-8 py-4 rounded-xl font-cta font-bold text-lg hover:bg-primary-50 transition-all duration-300 shadow-soft hover:shadow-gentle transform hover:-translate-y-1">
+                    احجزي استشارة مجانية
+                </a>
+                <a href="testimonials.html" class="bg-transparent text-white border-2 border-white px-8 py-4 rounded-xl font-cta font-semibold text-lg hover:bg-white hover:text-primary transition-all duration-300">
+                    اقرئي قصص النجاح
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-accent ml-3" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 8 L28 16 L20 24 L12 16 Z" fill="currentColor" opacity="0.8"/>
+                            <circle cx="20" cy="20" r="4" fill="currentColor"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-xl font-headline font-bold">هدى الرفاعي</h3>
+                            <p class="text-sm text-gray-400">التدريب الروحي والشفاء</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 leading-relaxed">
+                        منصة روحية متخصصة تجمع بين التدريب الحياتي والشفاء الروحي، نساعدك في رحلة التحول الشخصي والنمو الروحي وفقاً للمبادئ الإسلامية.
+                    </p>
+                    <div class="flex space-x-reverse space-x-4">
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/249117374525" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-headline font-bold mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-accent transition-colors">عن هدى</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-accent transition-colors">الخدمات</a></li>
+                        <li><a href="courses.html" class="text-gray-300 hover:text-accent transition-colors">الدورات</a></li>
+                        <li><a href="testimonials.html" class="text-gray-300 hover:text-accent transition-colors">قصص النجاح</a></li>
+                        <li><a href="blog.html" class="text-gray-300 hover:text-accent transition-colors">المدونة</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-headline font-bold mb-4">تواصلي معنا</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-accent ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                            </svg>
+                            <span class="text-gray-300">+966 50 123 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-accent ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <span class="text-gray-300">info@hudacoaching.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-accent ml-2 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span class="text-gray-300">الرياض، المملكة العربية السعودية</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Islamic Calendar Integration -->
+            <div class="border-t border-gray-700 mt-8 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-center md:text-right mb-4 md:mb-0">
+                        <p class="text-gray-300">
+                            © 2025 هدى الرفاعي للتدريب الروحي. جميع الحقوق محفوظة.
+                        </p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <p class="text-accent font-medium" id="hijri-date">
+                            15 جمادى الآخرة 1447 هـ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 left-6 z-50">
+        <a href="https://wa.me/249117374525?text=السلام%20عليكم%20أريد%20الاستفسار%20عن%20خدماتكم" class="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 animate-gentle-pulse group">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
+            </svg>
+            <div class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center animate-pulse">
+                1
+            </div>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Currency Conversion
+        const exchangeRates = {
+            SAR: 1,
+            AED: 1.02,
+            EGP: 12.5,
+            JOD: 0.27
+        };
+
+        const basePrices = {
+            'life-coaching': {
+                'single': 200,
+                'package': 700,
+                'group': 100
+            },
+            'emotional-cleansing': {
+                'single': 300,
+                'package': 800,
+                'monthly': 150
+            },
+            'courses': {
+                'basic': 500,
+                'comprehensive': 1200,
+                'advanced': 800
+            }
+        };
+
+        const currencySymbols = {
+            SAR: 'ريال',
+            AED: 'درهم',
+            EGP: 'جنيه',
+            JOD: 'دينار'
+        };
+
+        function changeCurrency(currency) {
+            // Update active button
+            document.querySelectorAll('.currency-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-primary', 'text-white');
+                btn.classList.add('bg-surface-100', 'text-text-secondary');
+            });
+            
+            const activeBtn = document.querySelector(`[data-currency="${currency}"]`);
+            activeBtn.classList.add('active', 'bg-primary', 'text-white');
+            activeBtn.classList.remove('bg-surface-100', 'text-text-secondary');
+
+            // Update prices
+            document.querySelectorAll('.price').forEach(priceElement => {
+                const service = priceElement.dataset.service;
+                const type = priceElement.dataset.type;
+                const basePrice = basePrices[service][type];
+                const convertedPrice = Math.round(basePrice * exchangeRates[currency]);
+                const symbol = currencySymbols[currency];
+                
+                priceElement.textContent = `${convertedPrice} ${symbol}`;
+            });
+        }
+
+        // Initialize currency buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.currency-btn').forEach(btn => {
+                if (!btn.classList.contains('active')) {
+                    btn.classList.add('bg-surface-100', 'text-text-secondary');
+                } else {
+                    btn.classList.add('bg-primary', 'text-white');
+                }
+            });
+        });
+
+        // FAQ Toggle
+        function toggleFAQ(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(45deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-soft-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animations
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

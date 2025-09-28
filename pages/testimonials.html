@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>قصص النجاح والتحول - هدى الرفاعي</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fhudacoach3270back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background font-body">
+    <!-- Header Navigation -->
+    <header class="bg-white shadow-gentle sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 8 L28 16 L20 24 L12 16 Z" fill="currentColor" opacity="0.8"/>
+                            <circle cx="20" cy="20" r="4" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="mr-3">
+                        <h1 class="text-xl font-headline font-bold text-primary">هدى الرفاعي</h1>
+                        <p class="text-xs text-secondary-600">التدريب الروحي والشفاء</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-reverse space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors">الرئيسية</a>
+                    <a href="services.html" class="text-text-secondary hover:text-primary transition-colors">الخدمات</a>
+                    <a href="courses.html" class="text-text-secondary hover:text-primary transition-colors">الدورات</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-colors">عن هدى</a>
+                    <a href="testimonials.html" class="text-primary font-medium border-b-2 border-primary pb-1">قصص النجاح</a>
+                    <a href="blog.html" class="text-text-secondary hover:text-primary transition-colors">المدونة</a>
+                </nav>
+
+                <!-- Social Links & Language Toggle -->
+                <div class="hidden md:flex items-center space-x-reverse space-x-4">
+                    <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                        </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                        </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                        </svg>
+                    </a>
+                    <button class="bg-accent text-white px-3 py-1 rounded-lg text-sm font-medium hover:bg-accent-600 transition-colors">
+                        EN
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-surface-200">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="homepage.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">الرئيسية</a>
+                <a href="services.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">الخدمات</a>
+                <a href="courses.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">الدورات</a>
+                <a href="about.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">عن هدى</a>
+                <a href="testimonials.html" class="block px-3 py-2 text-primary font-medium bg-primary-50 rounded-md">قصص النجاح</a>
+                <a href="blog.html" class="block px-3 py-2 text-text-secondary hover:text-primary hover:bg-surface-100 rounded-md">المدونة</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Prayer Time Widget -->
+    <div class="bg-primary-50 border-b border-primary-100">
+        <div class="max-w-7xl mx-auto px-4 py-2">
+            <div class="flex items-center justify-center text-sm text-primary-700">
+                <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                <span>وقت الصلاة القادم: المغرب - 6:24 م</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spiritual Quote of the Day -->
+    <div class="bg-gradient-to-l from-accent-50 to-primary-50 border-b border-accent-100">
+        <div class="max-w-4xl mx-auto px-4 py-3 text-center">
+            <p class="text-accent-700 font-accent text-lg italic">
+                "وَبَشِّرِ الصَّابِرِينَ الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ"
+            </p>
+            <p class="text-accent-600 text-sm mt-1">البقرة: 155-156</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-bl from-primary-50 via-white to-secondary-50 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                <pattern id="islamic-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M10 0L20 10L10 20L0 10Z" fill="currentColor" class="text-primary"/>
+                </pattern>
+                <rect width="100" height="100" fill="url(#islamic-pattern)"/>
+            </svg>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+            <div class="text-center">
+                <h1 class="text-4xl lg:text-6xl font-headline font-bold text-primary mb-6 leading-tight">
+                    قصص التحول
+                    <span class="text-accent block">والشفاء الحقيقي</span>
+                </h1>
+                <p class="text-xl text-text-secondary mb-8 max-w-3xl mx-auto leading-relaxed">
+                    اكتشفي كيف غيرت رحلة التدريب الروحي حياة عملائنا وساعدتهم في الوصول إلى السلام الداخلي والتوازن الروحي
+                </p>
+                
+                <!-- Success Metrics -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-8">
+                    <div class="text-center">
+                        <div class="text-3xl font-headline font-bold text-primary mb-2">500+</div>
+                        <div class="text-sm text-text-secondary">عميلة سعيدة</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-headline font-bold text-accent mb-2">98%</div>
+                        <div class="text-sm text-text-secondary">معدل الرضا</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-headline font-bold text-secondary-600 mb-2">50+</div>
+                        <div class="text-sm text-text-secondary">دورة مكتملة</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-headline font-bold text-primary mb-2">5</div>
+                        <div class="text-sm text-text-secondary">سنوات خبرة</div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/966501234567?text=أريد%20معرفة%20المزيد%20عن%20خدماتكم" class="bg-primary text-white px-8 py-4 rounded-xl font-cta font-semibold text-lg hover:bg-primary-600 transition-all duration-300 shadow-soft hover:shadow-gentle transform hover:-translate-y-1 inline-block">
+                    ابدئي رحلتك الآن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Filters -->
+    <section class="py-8 bg-surface-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <button onclick="filterTestimonials('all')" class="filter-btn active bg-primary text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                    جميع القصص
+                </button>
+                <button onclick="filterTestimonials('coaching')" class="filter-btn bg-white text-primary border border-primary px-6 py-3 rounded-lg font-medium hover:bg-primary-50 transition-colors">
+                    التدريب الحياتي
+                </button>
+                <button onclick="filterTestimonials('healing')" class="filter-btn bg-white text-primary border border-primary px-6 py-3 rounded-lg font-medium hover:bg-primary-50 transition-colors">
+                    الشفاء العاطفي
+                </button>
+                <button onclick="filterTestimonials('courses')" class="filter-btn bg-white text-primary border border-primary px-6 py-3 rounded-lg font-medium hover:bg-primary-50 transition-colors">
+                    الدورات التدريبية
+                </button>
+            </div>
+
+            <!-- Search Functionality -->
+            <div class="max-w-md mx-auto mb-8">
+                <div class="relative">
+                    <input type="text" id="testimonial-search" placeholder="ابحثي في قصص النجاح..." class="w-full px-4 py-3 pr-12 rounded-lg border border-surface-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" onkeyup="searchTestimonials()" />
+                    <svg class="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-text-muted" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials Gallery -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    شاهدي قصص التحول بالفيديو
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    استمعي إلى تجارب حقيقية من عملائنا وكيف تغيرت حياتهم نحو الأفضل
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="video-testimonials">
+                <!-- Video Testimonial 1 -->
+                <div class="testimonial-item video-testimonial" data-category="healing">
+                    <div class="spiritual-card breathing-space">
+                        <div class="relative mb-6">
+                            <div class="aspect-w-16 aspect-h-9 bg-surface-200 rounded-lg overflow-hidden">
+                                <img src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=600" alt="فاطمة أحمد - قصة تحول" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                                    <button onclick="playVideo('video1')" class="bg-white bg-opacity-90 rounded-full p-4 hover:bg-opacity-100 transition-all">
+                                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-xl font-headline font-bold text-primary mb-2">فاطمة أحمد</h3>
+                            <p class="text-text-secondary mb-4">التطهير العاطفي والشفاء من الصدمات</p>
+                            <div class="flex justify-center mb-4">
+                                <div class="flex text-accent">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-text-secondary text-sm italic">
+                                "تحررت من أحزان الماضي ووجدت السلام الحقيقي"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial 2 -->
+                <div class="testimonial-item video-testimonial" data-category="coaching">
+                    <div class="spiritual-card breathing-space">
+                        <div class="relative mb-6">
+                            <div class="aspect-w-16 aspect-h-9 bg-surface-200 rounded-lg overflow-hidden">
+                                <img src="https://images.pixabay.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=600" alt="مريم السالم - قصة نجاح" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                                    <button onclick="playVideo('video2')" class="bg-white bg-opacity-90 rounded-full p-4 hover:bg-opacity-100 transition-all">
+                                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-xl font-headline font-bold text-primary mb-2">مريم السالم</h3>
+                            <p class="text-text-secondary mb-4">التدريب الحياتي وتحقيق الأهداف</p>
+                            <div class="flex justify-center mb-4">
+                                <div class="flex text-accent">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-text-secondary text-sm italic">
+                                "وجدت هدفي الحقيقي وحققت أحلامي"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial 3 -->
+                <div class="testimonial-item video-testimonial" data-category="courses">
+                    <div class="spiritual-card breathing-space">
+                        <div class="relative mb-6">
+                            <div class="aspect-w-16 aspect-h-9 bg-surface-200 rounded-lg overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=compress&cs=tinysrgb&w=600" alt="نورا الخالد - خريجة الدورات" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                                    <button onclick="playVideo('video3')" class="bg-white bg-opacity-90 rounded-full p-4 hover:bg-opacity-100 transition-all">
+                                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-xl font-headline font-bold text-primary mb-2">نورا الخالد</h3>
+                            <p class="text-text-secondary mb-4">دورة الشفاء الروحي المتقدمة</p>
+                            <div class="flex justify-center mb-4">
+                                <div class="flex text-accent">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-text-secondary text-sm italic">
+                                "تعلمت أدوات الشفاء الذاتي والنمو الروحي"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Written Testimonials with Before/After -->
+    <section class="py-16 bg-surface-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    قصص مكتوبة مفصلة
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    اقرئي تجارب مفصلة تُظهر رحلة التحول من البداية إلى النتائج المحققة
+                </p>
+            </div>
+
+            <div class="space-y-8" id="written-testimonials">
+                <!-- Written Testimonial 1 -->
+                <div class="testimonial-item written-testimonial" data-category="healing">
+                    <div class="spiritual-card breathing-space">
+                        <div class="grid lg:grid-cols-3 gap-8 items-center">
+                            <div class="lg:col-span-1">
+                                <img src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=400" alt="سارة محمد" class="w-32 h-32 rounded-full object-cover mx-auto shadow-gentle" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <div class="text-center mt-4">
+                                    <h3 class="text-xl font-headline font-bold text-primary">سارة محمد</h3>
+                                    <p class="text-text-secondary">مديرة تسويق - الرياض</p>
+                                    <div class="flex justify-center mt-2">
+                                        <div class="flex text-accent">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:col-span-2">
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-secondary-600 mb-3">الحالة قبل التدريب:</h4>
+                                    <p class="text-text-secondary leading-relaxed">
+                                        كنت أعاني من قلق مستمر وضغوط نفسية شديدة بسبب ضغوط العمل والحياة الأسرية. شعرت بالانقطاع عن الله وفقدان الهدف في الحياة. كانت علاقاتي الاجتماعية متوترة ولم أكن أجد السلام الداخلي رغم محاولاتي المستمرة.
+                                    </p>
+                                </div>
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-primary mb-3">رحلة التحول:</h4>
+                                    <p class="text-text-secondary leading-relaxed">
+                                        خلال 8 جلسات من التطهير العاطفي مع الأستاذة هدى، تعلمت تقنيات الشفاء الروحي المبنية على القرآن والسنة. ساعدتني في التخلص من المشاعر السلبية المكبوتة وإعادة الاتصال بالله. كانت كل جلسة بمثابة رحلة اكتشاف جديدة لذاتي.
+                                    </p>
+                                </div>
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-accent mb-3">النتائج المحققة:</h4>
+                                    <ul class="text-text-secondary space-y-2">
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            انخفاض مستوى القلق بنسبة 80% خلال شهرين
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            تحسن كبير في جودة النوم والراحة النفسية
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            إعادة بناء علاقة قوية مع الله والصلاة
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            تحسن العلاقات الأسرية والاجتماعية
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bg-primary-50 p-4 rounded-lg">
+                                    <p class="text-primary font-medium italic">
+                                        "الأستاذة هدى لم تكن مجرد مدربة، بل كانت دليلي الروحي نحو السلام الداخلي. أنصح كل امرأة تبحث عن التوازن الروحي أن تخوض هذه التجربة المباركة."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Written Testimonial 2 -->
+                <div class="testimonial-item written-testimonial" data-category="coaching">
+                    <div class="spiritual-card breathing-space">
+                        <div class="grid lg:grid-cols-3 gap-8 items-center">
+                            <div class="lg:col-span-1">
+                                <img src="https://images.pixabay.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=400" alt="أمل الزهراني" class="w-32 h-32 rounded-full object-cover mx-auto shadow-gentle" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <div class="text-center mt-4">
+                                    <h3 class="text-xl font-headline font-bold text-primary">أمل الزهراني</h3>
+                                    <p class="text-text-secondary">رائدة أعمال - جدة</p>
+                                    <div class="flex justify-center mt-2">
+                                        <div class="flex text-accent">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:col-span-2">
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-secondary-600 mb-3">التحدي الأولي:</h4>
+                                    <p class="text-text-secondary leading-relaxed">
+                                        كنت أواجه صعوبة في تحديد أهدافي المهنية والشخصية. شعرت بالتشتت وعدم الوضوح في رؤيتي للمستقبل. كانت لدي أفكار كثيرة لمشاريع لكنني لم أكن أعرف كيف أبدأ أو أي طريق أسلك.
+                                    </p>
+                                </div>
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-primary mb-3">برنامج التدريب:</h4>
+                                    <p class="text-text-secondary leading-relaxed">
+                                        انضممت لبرنامج التدريب الحياتي الروحي لمدة 3 أشهر. ساعدتني الأستاذة هدى في اكتشاف قيمي الأساسية وربطها بأهدافي المهنية. تعلمت كيف أضع خطط واقعية مع الاستعانة بالله والتوكل عليه في كل خطوة.
+                                    </p>
+                                </div>
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-accent mb-3">الإنجازات المحققة:</h4>
+                                    <ul class="text-text-secondary space-y-2">
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            إطلاق مشروعي الخاص في مجال الاستشارات النسائية
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            زيادة الدخل بنسبة 150% خلال 6 أشهر
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            تحقيق التوازن بين العمل والحياة الأسرية
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            بناء شبكة علاقات مهنية قوية
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bg-accent-50 p-4 rounded-lg">
+                                    <p class="text-accent-700 font-medium italic">
+                                        "التدريب مع الأستاذة هدى لم يغير مساري المهني فحسب، بل غير نظرتي للحياة بأكملها. تعلمت أن النجاح الحقيقي يأتي من التوازن بين الدنيا والآخرة."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Written Testimonial 3 -->
+                <div class="testimonial-item written-testimonial" data-category="courses">
+                    <div class="spiritual-card breathing-space">
+                        <div class="grid lg:grid-cols-3 gap-8 items-center">
+                            <div class="lg:col-span-1">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=compress&cs=tinysrgb&w=400" alt="ليلى القحطاني" class="w-32 h-32 rounded-full object-cover mx-auto shadow-gentle" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <div class="text-center mt-4">
+                                    <h3 class="text-xl font-headline font-bold text-primary">ليلى القحطاني</h3>
+                                    <p class="text-text-secondary">معلمة - الدمام</p>
+                                    <div class="flex justify-center mt-2">
+                                        <div class="flex text-accent">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!-- Course Completion Certificate -->
+                                    <div class="mt-4 bg-accent-100 p-3 rounded-lg">
+                                        <div class="flex items-center justify-center">
+                                            <svg class="w-5 h-5 text-accent-600 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                            </svg>
+                                            <span class="text-accent-700 font-medium text-sm">خريجة معتمدة</span>
+                                        </div>
+                                        <p class="text-accent-600 text-xs mt-1">دورة الشفاء الروحي المتقدمة</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:col-span-2">
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-secondary-600 mb-3">الوضع السابق:</h4>
+                                    <p class="text-text-secondary leading-relaxed">
+                                        كنت أمر بفترة صعبة بعد وفاة والدي. شعرت بالحزن العميق والغضب وفقدان المعنى في الحياة. كانت صلاتي متقطعة وعلاقتي بالله ضعيفة. أثر ذلك على عملي وعلاقاتي مع طلابي وأسرتي.
+                                    </p>
+                                </div>
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-primary mb-3">تجربة الدورة:</h4>
+                                    <p class="text-text-secondary leading-relaxed">
+                                        التحقت بدورة "الشفاء الروحي والتطهير العاطفي" لمدة 6 أسابيع. كانت الدورة مزيجاً رائعاً من التعاليم الإسلامية والتقنيات العلاجية الحديثة. تعلمت كيف أتعامل مع الحزن بطريقة صحية وكيف أحول الألم إلى نمو روحي.
+                                    </p>
+                                </div>
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-headline font-bold text-accent mb-3">التحول المحقق:</h4>
+                                    <ul class="text-text-secondary space-y-2">
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            تقبل فقدان والدي والرضا بقضاء الله
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            عودة قوية للصلاة والذكر والتلاوة
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            تحسن ملحوظ في أدائي المهني والتعليمي
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-success mt-1 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                            </svg>
+                                            إتقان تقنيات الشفاء الذاتي والتأمل الإسلامي
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bg-secondary-50 p-4 rounded-lg">
+                                    <p class="text-secondary-700 font-medium italic">
+                                        "هذه الدورة لم تشفني من الحزن فحسب، بل علمتني كيف أكون أقوى وأكثر قرباً من الله. أصبحت الآن أساعد زميلاتي المعلمات في التعامل مع تحدياتهن النفسية."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Completion Certificates -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-headline font-bold text-primary mb-4">
+                    خريجات معتمدات
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    فخورات بإنجازات خريجاتنا اللواتي أكملن برامجنا التدريبية بنجاح
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Certificate 1 -->
+                <div class="spiritual-card breathing-space text-center">
+                    <div class="w-20 h-20 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-accent-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-headline font-bold text-primary mb-2">دورة الشفاء الروحي</h3>
+                    <p class="text-text-secondary mb-4">25 خريجة معتمدة</p>
+                    <div class="bg-accent-50 p-3 rounded-lg">
+                        <p class="text-accent-700 font-medium text-sm">معدل النجاح: 100%</p>
+                        <p class="text-accent-600 text-xs mt-1">متوسط التحسن: 85%</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="spiritual-card breathing-space text-center">
+                    <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-headline font-bold text-primary mb-2">التدريب الحياتي المتقدم</h3>
+                    <p class="text-text-secondary mb-4">18 خريجة معتمدة</p>
+                    <div class="bg-primary-50 p-3 rounded-lg">
+                        <p class="text-primary font-medium text-sm">معدل النجاح: 95%</p>
+                        <p class="text-primary-600 text-xs mt-1">متوسط تحقيق الأهداف: 90%</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="spiritual-card breathing-space text-center">
+                    <div class="w-20 h-20 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-secondary-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-headline font-bold text-primary mb-2">العلاج النفسي الإسلامي</h3>
+                    <p class="text-text-secondary mb-4">12 خريجة معتمدة</p>
+                    <div class="bg-secondary-50 p-3 rounded-lg">
+                        <p class="text-secondary-700 font-medium text-sm">معدل النجاح: 100%</p>
+                        <p class="text-secondary-600 text-xs mt-1">متوسط الشفاء: 88%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Privacy Statement -->
+    <section class="py-12 bg-surface-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="spiritual-card breathing-space">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-primary ml-3" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
+                    </svg>
+                    <h3 class="text-2xl font-headline font-bold text-primary">حماية الخصوصية والسرية</h3>
+                </div>
+                <p class="text-text-secondary leading-relaxed mb-6">
+                    نحن ملتزمون بحماية خصوصية عملائنا وسرية معلوماتهم. جميع الشهادات المعروضة تم نشرها بموافقة كتابية من العملاء. نحترم حقوق الخصوصية ونضمن عدم مشاركة أي معلومات شخصية دون إذن صريح.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 text-sm text-text-muted">
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 text-success ml-1" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        <span>موافقة كتابية</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 text-success ml-1" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        <span>حماية البيانات</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 text-success ml-1" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        <span>السرية التامة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-headline font-bold mb-4">
+                ابدئي قصة نجاحك الآن
+            </h2>
+            <p class="text-xl text-primary-100 mb-8">
+                انضمي إلى مئات النساء اللواتي غيرن حياتهن نحو الأفضل
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/966501234567?text=أريد%20حجز%20استشارة%20مجانية" class="bg-white text-primary px-8 py-4 rounded-xl font-cta font-bold text-lg hover:bg-primary-50 transition-all duration-300 shadow-soft hover:shadow-gentle transform hover:-translate-y-1">
+                    احجزي استشارة مجانية
+                </a>
+                <a href="courses.html" class="bg-accent text-white px-8 py-4 rounded-xl font-cta font-bold text-lg hover:bg-accent-600 transition-all duration-300 border-2 border-accent">
+                    استكشفي الدورات
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-accent ml-3" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 8 L28 16 L20 24 L12 16 Z" fill="currentColor" opacity="0.8"/>
+                            <circle cx="20" cy="20" r="4" fill="currentColor"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-xl font-headline font-bold">هدى الرفاعي</h3>
+                            <p class="text-sm text-gray-400">التدريب الروحي والشفاء</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 leading-relaxed">
+                        منصة روحية متخصصة تجمع بين التدريب الحياتي والشفاء الروحي، نساعدك في رحلة التحول الشخصي والنمو الروحي وفقاً للمبادئ الإسلامية.
+                    </p>
+                    <div class="flex space-x-reverse space-x-4">
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.097.118.112.221.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/966501234567" class="text-gray-400 hover:text-accent transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-headline font-bold mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-accent transition-colors">عن هدى</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-accent transition-colors">الخدمات</a></li>
+                        <li><a href="courses.html" class="text-gray-300 hover:text-accent transition-colors">الدورات</a></li>
+                        <li><a href="testimonials.html" class="text-gray-300 hover:text-accent transition-colors">قصص النجاح</a></li>
+                        <li><a href="blog.html" class="text-gray-300 hover:text-accent transition-colors">المدونة</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-headline font-bold mb-4">تواصلي معنا</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-accent ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                            </svg>
+                            <span class="text-gray-300">+966 50 123 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-accent ml-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <span class="text-gray-300">info@hudacoaching.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-accent ml-2 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span class="text-gray-300">الرياض، المملكة العربية السعودية</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Islamic Calendar Integration -->
+            <div class="border-t border-gray-700 mt-8 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-center md:text-right mb-4 md:mb-0">
+                        <p class="text-gray-300">
+                            © 2025 هدى الرفاعي للتدريب الروحي. جميع الحقوق محفوظة.
+                        </p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <p class="text-accent font-medium" id="hijri-date">
+                            15 جمادى الآخرة 1447 هـ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 left-6 z-50">
+        <a href="https://wa.me/966501234567?text=السلام%20عليكم%20أريد%20الاستفسار%20عن%20خدماتكم" class="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 animate-gentle-pulse group">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
+            </svg>
+            <div class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center animate-pulse">
+                1
+            </div>
+        </a>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-lg max-w-4xl w-full max-h-full overflow-hidden">
+            <div class="flex justify-between items-center p-4 border-b">
+                <h3 class="text-lg font-headline font-bold text-primary">شاهدي قصة التحول</h3>
+                <button onclick="closeVideoModal()" class="text-text-muted hover:text-primary">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="p-4">
+                <div class="aspect-w-16 aspect-h-9 bg-surface-200 rounded-lg">
+                    <div class="flex items-center justify-center h-64">
+                        <p class="text-text-secondary">سيتم تشغيل الفيديو هنا</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Filter Testimonials
+        function filterTestimonials(category) {
+            const testimonials = document.querySelectorAll('.testimonial-item');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            
+            // Update active button
+            filterBtns.forEach(btn => {
+                btn.classList.remove('active', 'bg-primary', 'text-white');
+                btn.classList.add('bg-white', 'text-primary', 'border', 'border-primary');
+            });
+            
+            event.target.classList.add('active', 'bg-primary', 'text-white');
+            event.target.classList.remove('bg-white', 'text-primary', 'border', 'border-primary');
+            
+            // Filter testimonials
+            testimonials.forEach(testimonial => {
+                if (category === 'all' || testimonial.dataset.category === category) {
+                    testimonial.style.display = 'block';
+                    testimonial.classList.add('animate-soft-fade-in');
+                } else {
+                    testimonial.style.display = 'none';
+                }
+            });
+        }
+
+        // Search Testimonials
+        function searchTestimonials() {
+            const searchTerm = document.getElementById('testimonial-search').value.toLowerCase();
+            const testimonials = document.querySelectorAll('.testimonial-item');
+            
+            testimonials.forEach(testimonial => {
+                const text = testimonial.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    testimonial.style.display = 'block';
+                    testimonial.classList.add('animate-soft-fade-in');
+                } else {
+                    testimonial.style.display = 'none';
+                }
+            });
+        }
+
+        // Video Modal Functions
+        function playVideo(videoId) {
+            const modal = document.getElementById('video-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            
+            // Here you would typically load the actual video
+            console.log('Playing video:', videoId);
+        }
+
+        function closeVideoModal() {
+            const modal = document.getElementById('video-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('video-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeVideoModal();
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-soft-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animations
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Observe testimonial cards
+        document.querySelectorAll('.spiritual-card').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
